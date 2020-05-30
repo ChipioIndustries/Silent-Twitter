@@ -1,4 +1,4 @@
-https://www.youtube.com/embed/xbZZbepBkj4
+https://www.youtube.com/watch?v=xbZZbepBkj4
 
 # Silent Tweet
 A chrome extension that removes all text from Twitter, leaving only the images. Great for erasing those hot takes and awful statements, but keeping the memes and art.
