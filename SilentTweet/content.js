@@ -2,6 +2,18 @@
 //I'm really not great with javascript so there's probably a lot of room
 //for improvement in here, feel free to take a crack at it
 //5/29/2020
+var enabled=chrome.storage.sync.get("SILENT_TWEET_ENABLED",function(data){
+	enabled=data.SILENT_TWEET_ENABLED;
+});;
+
+chrome.runtime.onMessage.addListener(function(request){
+	if (request=="SILENT_TWEET_ENABLED") {
+		enabled=true;
+	} else if (request=="SILENT_TWEET_DISABLED") {
+		enabled=false;
+	}
+});
+
 setInterval(function(){
 	/*function tweetHasImage(element){
 		var elements=element.getElementsByTagName("*");
@@ -12,7 +24,7 @@ setInterval(function(){
 		}					images would just be hidden entirely, but apparently that's harder
 		return false;		than it sounds. Still not sure why I wasn't able to get it working.
 	}*/
-	function myFunction() {
+	function sweep() { //where the magic happens
 		/*var tweets=document.getElementsByClassName("css-1dbjc4n r-1igl3o0 r-qklmqi r-1adg3ll");
 		for (i=0;i<tweets.length;i++){
 			if (tweets[i].getElementsByTagName("IMG").length==0){
@@ -28,5 +40,7 @@ setInterval(function(){
 			}
 		}
 	}
-	myFunction();
+	if (enabled) {
+		sweep();
+	}
 },200);
