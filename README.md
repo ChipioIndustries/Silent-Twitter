@@ -5,4 +5,4 @@ A chrome extension that removes all text from Twitter, leaving only the images. 
 * Download the repository onto your local machine.
 * Navigate to [chrome://extensions](chrome://extensions) and enable the "Developer mode" option at the top right of the screen.
 * Select "Load Unpacked" at the top left of the screen.
-* Select the `SilentTwitter` folder.
+* Select the `SilentTweet` folder.
