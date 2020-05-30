@@ -1,6 +1,8 @@
-[![Promo Video](http://img.youtube.com/vi/xbZZbepBkj4/0.jpg)](https://www.youtube.com/watch?v=xbZZbepBkj4 "Promo Video")
-
 # Silent Tweet
+
+[![Promo Video](http://img.youtube.com/vi/xbZZbepBkj4/0.jpg)](https://www.youtube.com/watch?v=xbZZbepBkj4 "Promo Video")
+*Promo video*
+
 A chrome extension that removes all text from Twitter, leaving only the images. Great for erasing those hot takes and awful statements, but keeping the memes and art.
 
 # Installation
