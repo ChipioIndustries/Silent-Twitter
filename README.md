@@ -1,4 +1,3 @@
-https://www.youtube.com/watch?v=xbZZbepBkj4
 [![Promo Video](http://img.youtube.com/vi/xbZZbepBkj4/0.jpg)](https://www.youtube.com/watch?v=xbZZbepBkj4 "Promo Video")
 
 # Silent Tweet
